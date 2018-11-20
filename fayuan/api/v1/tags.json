@@ -1,0 +1,273 @@
+{
+    "data": [{
+        "id": "1",
+        "type": "tags",
+        "links": {
+            "self": "http://fayuan/api/v1/tags/1"
+        },
+        "attributes": {
+            "title": "办公室",
+            "slug": "办公室"
+        },
+        "relationships": {
+            "artists": {
+                "links": {
+                    "self": "http://fayuan/api/v1/tags/1/relationships/artists",
+                    "related": "http://fayuan/api/v1/tags/1/artists"
+                }
+            }
+        }
+    }, {
+        "id": "2",
+        "type": "tags",
+        "links": {
+            "self": "http://fayuan/api/v1/tags/2"
+        },
+        "attributes": {
+            "title": "司法警察大队",
+            "slug": "司法警察大队"
+        },
+        "relationships": {
+            "artists": {
+                "links": {
+                    "self": "http://fayuan/api/v1/tags/2/relationships/artists",
+                    "related": "http://fayuan/api/v1/tags/2/artists"
+                }
+            }
+        }
+    }, {
+        "id": "3",
+        "type": "tags",
+        "links": {
+            "self": "http://fayuan/api/v1/tags/3"
+        },
+        "attributes": {
+            "title": "司法行政装备科",
+            "slug": "司法行政装备科"
+        },
+        "relationships": {
+            "artists": {
+                "links": {
+                    "self": "http://fayuan/api/v1/tags/3/relationships/artists",
+                    "related": "http://fayuan/api/v1/tags/3/artists"
+                }
+            }
+        }
+    }, {
+        "id": "4",
+        "type": "tags",
+        "links": {
+            "self": "http://fayuan/api/v1/tags/4"
+        },
+        "attributes": {
+            "title": "立案庭",
+            "slug": "立案庭"
+        },
+        "relationships": {
+            "artists": {
+                "links": {
+                    "self": "http://fayuan/api/v1/tags/4/relationships/artists",
+                    "related": "http://fayuan/api/v1/tags/4/artists"
+                }
+            }
+        }
+    }, {
+        "id": "5",
+        "type": "tags",
+        "links": {
+            "self": "http://fayuan/api/v1/tags/139"
+        },
+        "attributes": {
+            "title": "民事审判庭",
+            "slug": "民事审判庭"
+        },
+        "relationships": {
+            "artists": {
+                "links": {
+                    "self": "http://fayuan/api/v1/tags/5/relationships/artists",
+                    "related": "http://fayuan/api/v1/tags/5/artists"
+                }
+            }
+        }
+    }, {
+        "id": "6",
+        "type": "tags",
+        "links": {
+            "self": "http://fayuan/api/v1/tags/6"
+        },
+        "attributes": {
+            "title": "商事审判庭",
+            "slug": "商事审判庭"
+        },
+        "relationships": {
+            "artists": {
+                "links": {
+                    "self": "http://fayuan/api/v1/tags/6/relationships/artists",
+                    "related": "http://fayuan/api/v1/tags/6/artists"
+                }
+            }
+        }
+    }, {
+        "id": "7",
+        "type": "tags",
+        "links": {
+            "self": "http://fayuan/api/v1/tags/7"
+        },
+        "attributes": {
+            "title": "审判监督庭",
+            "slug": "审判监督庭"
+        },
+        "relationships": {
+            "artists": {
+                "links": {
+                    "self": "http://fayuan/api/v1/tags/7/relationships/artists",
+                    "related": "http://fayuan/api/v1/tags/7/artists"
+                }
+            }
+        }
+    }, {
+        "id": "9",
+        "type": "tags",
+        "links": {
+            "self": "http://fayuan/api/v1/tags/9"
+        },
+        "attributes": {
+            "title": "刑事审判庭",
+            "slug": "刑事审判庭"
+        },
+        "relationships": {
+            "artists": {
+                "links": {
+                    "self": "http://fayuan/api/v1/tags/9/relationships/artists",
+                    "related": "http://fayuan/api/v1/tags/9/artists"
+                }
+            }
+        }
+    }, {
+        "id": "10",
+        "type": "tags",
+        "links": {
+            "self": "http://fayuan/api/v1/tags/10"
+        },
+        "attributes": {
+            "title": "院长室",
+            "slug": "院长室"
+        },
+        "relationships": {
+            "artists": {
+                "links": {
+                    "self": "http://fayuan/api/v1/tags/10/relationships/artists",
+                    "related": "http://fayuan/api/v1/tags/10/artists"
+                }
+            }
+        }
+    }, {
+        "id": "11",
+        "type": "tags",
+        "links": {
+            "self": "http://fayuan/api/v1/tags/11"
+        },
+        "attributes": {
+            "title": "政治部",
+            "slug": "政治部"
+        },
+        "relationships": {
+            "artists": {
+                "links": {
+                    "self": "http://fayuan/api/v1/tags/11/relationships/artists",
+                    "related": "http://fayuan/api/v1/tags/11/artists"
+                }
+            }
+        }
+    }, {
+        "id": "12",
+        "type": "tags",
+        "links": {
+            "self": "http://fayuan/api/v1/tags/12"
+        },
+        "attributes": {
+            "title": "知识产权审判庭",
+            "slug": "知识产权审判庭"
+        },
+        "relationships": {
+            "artists": {
+                "links": {
+                    "self": "http://fayuan/api/v1/tags/12/relationships/artists",
+                    "related": "http://fayuan/api/v1/tags/12/artists"
+                }
+            }
+        }
+    }, {
+        "id": "13",
+        "type": "tags",
+        "links": {
+            "self": "http://fayuan/api/v1/tags/13"
+        },
+        "attributes": {
+            "title": "执行裁判庭",
+            "slug": "执行裁判庭"
+        },
+        "relationships": {
+            "artists": {
+                "links": {
+                    "self": "http://fayuan/api/v1/tags/13/relationships/artists",
+                    "related": "http://fayuan/api/v1/tags/13/artists"
+                }
+            }
+        }
+    }, {
+        "id": "14",
+        "type": "tags",
+        "links": {
+            "self": "http://fayuan/api/v1/tags/14"
+        },
+        "attributes": {
+            "title": "执行局",
+            "slug": "执行局"
+        },
+        "relationships": {
+            "artists": {
+                "links": {
+                    "self": "http://fayuan/api/v1/tags/14/relationships/artists",
+                    "related": "http://fayuan/api/v1/tags/14/artists"
+                }
+            }
+        }
+    }, {
+        "id": "15",
+        "type": "tags",
+        "links": {
+            "self": "http://fayuan/api/v1/tags/15"
+        },
+        "attributes": {
+            "title": "未成年人与家事案件综合审判庭",
+            "slug": "未成年人与家事案件综合审判庭"
+        },
+        "relationships": {
+            "artists": {
+                "links": {
+                    "self": "http://fayuan/api/v1/tags/15/relationships/artists",
+                    "related": "http://fayuan/api/v1/tags/15/artists"
+                }
+            }
+        }
+    }, {
+        "id": "16",
+        "type": "tags",
+        "links": {
+            "self": "http://fayuan/api/v1/tags/15"
+        },
+        "attributes": {
+            "title": "",
+            "slug": ""
+        },
+        "relationships": {
+            "artists": {
+                "links": {
+                    "self": "http://fayuan/api/v1/tags/15/relationships/artists",
+                    "related": "http://fayuan/api/v1/tags/15/artists"
+                }
+            }
+        }
+    }]
+}

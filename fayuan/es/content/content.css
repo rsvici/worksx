@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+}
+
+.container .bgPhoto {
+    width: 60%;
+    position: fixed;
+    top: 15vw;
+    left: 20%;
+    text-align: center;
+}
+
+.container .bgPhoto .bgPhotoimg {
+    height: 70vh;
+    overflow: hidden;
+}
+
+.container .c_name {
+    width: 40%;
+    position: fixed;
+    top: 32vw;
+    left: 67.5%;
+    font-size: 64px;
+    font-family: '宋体';
+    line-height: 44px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.container .bgPhoto .bgPhotoIndex {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    z-index: 2;
+    position: relative;
+}
+
+.container .info {
+    position: relative;
+    z-index: 5;
+    width: 52%;
+    padding: 2vw;
+    border-radius: 20px;
+    margin: 100vh auto 50px;
+    overflow: hidden;
+    min-height: 100vh;
+    background-color: rgba(255, 255, 255, .2)
+}
+
+.container .info .info_left {
+    float: left;
+    color: #1c0000;
+    font-size: 24px;
+    width: 30%;
+    /* font-family: '宋体'; */
+    line-height: 30px;
+}
+
+.container .info .info_left li {
+    line-height: 60px;
+}
+
+.container .info .info_left span {
+    font-weight: 700;
+}
+
+.container .info .info_right {
+    margin-top: -40px;
+    float: right;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.container .info .info_right p {
+    font-family: '宋体';
+    line-height: 50px;
+    font-size: 28px;
+    color: #1c0000;
+    font-weight: 700;
+    text-indent: 2em;
+}
+
+.container .info .info_right h1 {
+    font-family: '宋体';
+    line-height: 70px;
+    font-size: 38px;
+    color: #1c0000;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.closenameInfoBox {
+    position: fixed;
+    bottom: 450px;
+    right: 300px;
+    z-index: 120;
+    /* background-color: #da1111; */
+    font-size: 40px;
+    line-height: 100px;
+    list-style: none;
+    color: #1c0000;
+    text-decoration: none;
+    font-family: '宋体';
+}
+
+.geyan {
+    width: 100%;
+    overflow: hidden;
+    border: 10px solid red;
+    box-sizing: border-box;
+    /* min-height: 30vh; */
+}
+
+.geyan .g_left {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 50px 0 50px 50px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.geyan .g_left img {
+    vertical-align: middle;
+}
+
+.geyan .g_right {
+    width: 50%;
+    float: left;
+    padding: 50px;
+    padding-top: 0;
+    box-sizing: border-box;
+}
+
+.geyan .g_right p {
+    font-family: '宋体';
+    line-height: 50px;
+    font-size: 28px;
+    color: #1c0000;
+    font-weight: 700;
+    text-indent: 2em;
+}
+
+.geyan .g_right h1 {
+    font-family: '宋体';
+    line-height: 70px;
+    font-size: 38px;
+    color: #1c0000;
+    font-weight: 700;
+    margin-top: 50px;
+}

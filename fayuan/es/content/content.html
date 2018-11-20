@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myapp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=0.8, maximum-scale=3.0, minimum-scale=0.5">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>上海普陀法院</title>
+    <link rel="stylesheet" href="./base.css">
+    <link rel="stylesheet" href="./content.css">
+    <script src="../js/jquery.min.js "></script>
+    <script src="../ionic/js/ionic.bundle.min.js "></script>
+</head>
+
+<body ng-controller="myCtrl">
+    <a class="closenameInfoBox" onClick="javascript :history.go(-1);">
+        <img src="../imgs/goback.png" alt="" width="100%">
+    </a>
+    <div class="container" ng-repeat="item in  MemberInfoList">
+        <div class="bgPhoto">
+            <div class="bgPhotoimg">
+                <img ng-src="http://127.0.0.1/courtimg/img/{{MemberInfo.c_name}}.jpg" alt="" class="imgName" height="100%">
+                <img ng-src="../imgs/1.jpg" alt="" class="imgName" height="100%">
+            </div>
+            <div class="c_name" ng-bind="MemberInfo.c_name">
+            </div>
+            <div class="bgPhotoIndex">
+            </div>
+        </div>
+
+        <div class="info">
+            <ul class="info_left">
+                <li>
+                    <span>姓名</span> : {{MemberInfo.c_name}}
+                </li>
+                <li>
+                    <span>部门</span> : {{dept}}
+                </li>
+                <li>
+                    <span>人员类别</span> : {{c_class}}
+                </li>
+            </ul>
+            <div class="info_right">
+                <h1>工作经验</h1>
+                <p>
+                    {{MemberInfo.c_job}}
+                </p>
+                <h1>所获荣誉</h1>
+                <p>
+                    {{MemberInfo.c_honor}}
+                </p>
+            </div>
+            <div class="geyan">
+                <div class="g_left">
+                    <img ng-src="http://127.0.0.1/courtimg/img/{{MemberInfo.c_name}}2.jpg" alt="" class="imgName" width="100%">
+                    <img ng-src="http://127.0.0.1/courtimg/img/{{MemberInfo.c_name}}.jpg" alt="" class="imgName" width="100%">
+                    <img src="../imgs/2.jpg" alt="" width="100%">
+                </div>
+                <div class="g_right">
+                    <h1>格言</h1>
+                    <p>
+                        {{MemberInfo.c_motto}}
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+<script src="./content.js"></script>
+<script>
+    window.scrollTo(0, 0);
+</script>
+
+</html>
